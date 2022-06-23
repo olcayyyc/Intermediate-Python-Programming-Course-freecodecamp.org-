@@ -1,0 +1,29 @@
+{
+    "firstname" : "Jane", string içerebilir
+    "lastName": "Doe",    
+    "hobbies": ["running", "swimming", "singing"],(nested array = iç içe dizi) list içerebilir
+    "age": 28, int içerebilir
+    "hasChildren": true, boolean içerebilir
+    "children": [
+        {
+            "firstName": "Alex", iç içe dict içerebilir
+            "age": 5             (nested dict = iç içe dict)
+        },
+        {
+            "firstName": "Bob",
+            "age": 7
+        }
+    ]
+}
+
+Python ve Json arasındaki element farkları;
+Python              Json
+dict                "object"
+list,tuple          array
+str                 string
+int,long,float      number
+True                true
+False               false
+None                null
+
+
